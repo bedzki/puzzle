@@ -1,14 +1,16 @@
 {
   "name": "react-tailwind-css-stater",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "private": true,
   "scripts": {
     "build": "react-scripts build",
     "coverageReport": "yarn test --changedSince develop --coverage --coverageReporters=html",
     "eject": "react-scripts eject",
-    "release-it": "yarn version --patch && git push --follow-tags",
     "start": "react-scripts start",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+    "updateVersion1": "yarn version --major && git push --follow-tags",
+    "updateVersion2": "yarn version --minor && git push --follow-tags",
+    "updateVersion3": "yarn version --patch && git push --follow-tags"
   },
   "browserslist": {
     "production": [
