@@ -1,4 +1,6 @@
-## 1.0.1 ( 23/01/2024)
+## 1.0.1 (23/01/2024)
+
+### Settings
 
 - add router redirect pages for Home and default
 
